@@ -21,3 +21,11 @@ MiniProjectpy_SSH_checker/
 ├── ssh_notify.py     # สคริปต์หลักสำหรับดึง Log และส่ง LINE
 ├── setup.sh          # สคริปต์ติดตั้ง Systemd Service อัตโนมัติ
 └── README.md         # เอกสารอธิบายโปรเจกต์
+```
+
+---
+1.
+```Bash
+git clone [https://github.com/pongwit2550/MiniProjectpy_SSH_checker.git](https://github.com/pongwit2550/MiniProjectpy_SSH_checker.git)
+cd MiniProjectpy_SSH_checker
+```
