@@ -60,7 +60,7 @@ def main():
     print("🚀 เริ่มต้นระบบตรวจจับ SSH Login (กด Ctrl+C เพื่อหยุด)...")
 
     # ใช้ journalctl เพื่อติดตาม log ของ ssh แบบ real-time
-    cmd = ["journalctl", "-u", "ssh", "-f", "--no-tail"]
+    cmd = ["journalctl", "-u", "sshd", "-f", "--no-tail"]
     
     try:
         process = subprocess.Popen(
