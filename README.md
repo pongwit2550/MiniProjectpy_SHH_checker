@@ -24,8 +24,27 @@ MiniProjectpy_SSH_checker/
 ```
 
 ---
-1.
+1. clone
 ```Bash
 git clone [https://github.com/pongwit2550/MiniProjectpy_SSH_checker.git](https://github.com/pongwit2550/MiniProjectpy_SSH_checker.git)
 cd MiniProjectpy_SSH_checker
+```
+2. .env setup (Line Token)
+สร้างไฟล์ .env ขึ้นมาในโฟลเดอร์หลักของโปรเจกต์:
+
+```Bash
+nano .env
+```
+จากนั้นใส่ค่า Token และ User ID ของคุณ:
+
+```ข้อมูลโค้ด
+LINE_CHANNEL_TOKEN=your_line_channel_access_token_here
+LINE_USER_ID=your_line_user_id_or_group_id_here
+```
+3. ติดตั้งและเปิดใช้งาน Systemd Service (แนะนำ)
+เพื่อให้สคริปต์รันเบื้องหลังและทำงานอัตโนมัติทุกครั้งที่เปิดเครื่อง ให้ใช้สคริปต์ setup.sh ที่เตรียมไว้:
+
+```Bash
+chmod +x setup.sh
+sudo bash setup.sh
 ```
