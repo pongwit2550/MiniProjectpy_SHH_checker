@@ -26,7 +26,7 @@ MiniProjectpy_SSH_checker/
 ---
 1. clone
 ```Bash
-git clone https://github.com/pongwit2550/MiniProjectpy_SSH_checker.git
+git clone https://github.com/pongwit2550/MiniProjectpy_SSH_checker.git &&
 cd MiniProjectpy_SSH_checker
 ```
 2. .env setup (Line Token)
