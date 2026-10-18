@@ -1,4 +1,4 @@
-# 🛡️ SSH Login Notifier
+# 🛡️ SSH Login Notifier(Fedora or same Distro support only)
 
 > สคริปต์ภาษา Python น้ำหนักเบา สำหรับตรวจจับการเข้าสู่ระบบผ่าน SSH แบบ Real-time บนระบบ Linux และส่งแจ้งเตือนเข้าแอปพลิเคชัน LINE ทันที
 
