@@ -1,22 +1,20 @@
-# MiniProjectpy_SHH_checker
+# 🔔 SSH Login Notifier
 
-# 🔔 SSH Login Notifier (Python)
-
-A lightweight, zero-dependency Python script designed for Linux environments (such as Fedora/RHEL and Ubuntu/Debian) to monitor SSH login events in real-time using `journalctl` and send instant alerts to your LINE chat via the LINE Messaging API.
+สคริปต์ภาษา Python สำหรับตรวจสอบการเข้าสู่ระบบผ่าน SSH (SSH Login) แบบ Real-time บนระบบ Linux (รองรับ Fedora, RHEL, Ubuntu, Debian) และส่งข้อความแจ้งเตือนเข้า LINE ทันทีผ่าน LINE Messaging API โดยใช้ Standard Library ล้วนๆ ไม่ต้องติดตั้งแพ็กเกจเสริม
 
 ---
 
-## ✨ Features
-* **Real-time Monitoring:** Listens to systemd journals for successful SSH logins (both password and public key).
-* **Zero Dependencies:** Uses Python's standard library only (no external packages like `requests` needed).
-* **Environment Configuration:** Securely loads your LINE credentials from a `.env` file.
-* **Systemd Integration:** Can be configured to run automatically as a background service at system startup.
+## ✨ คุณสมบัติเด่น (Features)
+* **Real-time Monitoring:** ดึงข้อมูล Log จากระบบ systemd (`journalctl`) ทันทีที่มีการ SSH เข้าสู่ระบบสำเร็จ (รองรับทั้ง Password และ Public Key)
+* **Zero Dependencies:** ใช้ Python Standard Library ไม่มีภาระต้องติดตั้งไลบรารีภายนอก (เช่น `requests`) เพิ่มเติม
+* **Secure Config:** โหลดค่าคอนฟิกและ Token ต่างๆ จากไฟล์ `.env` อย่างปลอดภัย
+* **Systemd Ready:** สามารถตั้งค่าให้รันเป็น Background Service ทำงานอัตโนมัติทุกครั้งที่เปิดเครื่อง
 
 ---
 
-## ⚙️ Prerequisites & Setup
+## ⚙️ วิธีการติดตั้งและใช้งาน (Installation & Usage)
 
-1. **Clone the repository:**
+1. **โคลนโปรเจกต์มายังเครื่องเป้าหมาย:**
    ```bash
    git clone [https://github.com/pongwit2550/MiniProjectpy_SSH_checker.git](https://github.com/pongwit2550/MiniProjectpy_SSH_checker.git)
    cd MiniProjectpy_SSH_checker
