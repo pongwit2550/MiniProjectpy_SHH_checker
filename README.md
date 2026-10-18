@@ -16,5 +16,11 @@
 
 1. **โคลนโปรเจกต์มายังเครื่องเป้าหมาย:**
    ```bash
-   git clone [https://github.com/pongwit2550/MiniProjectpy_SSH_checker.git](https://github.com/pongwit2550/MiniProjectpy_SSH_checker.git)
+   git clone https://github.com/pongwit2550/MiniProjectpy_SSH_checker.git
    cd MiniProjectpy_SSH_checker
+
+2. **Set .env**
+   LINE_CHANNEL_TOKEN=ใส่_Channel_Access_Token_ของคุณที่นี่
+   LINE_USER_ID=ใส่_User_ID_หรือ_Group_ID_ของคุณที่นี่
+
+3.python3 ssh_notify.py
